@@ -1,1 +1,1 @@
-cat ~/initialRequirements.txt | xargs sudo aptitude install
+xargs -a initialRequirements.txt -l1 sudo apt install -y
