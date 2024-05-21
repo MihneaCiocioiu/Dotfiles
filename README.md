@@ -6,10 +6,17 @@ echo ".dotfiles" >> .gitignore
 source .bashrc
 ```
 
-Then, clone this repository and define the alias config:
+Then, clone this repository:
 
 ```
 git clone --bare https://github.com/MihneaCiocioiu/Dotfiles $HOME/.dotfiles
+```
+
+Then, to install the necessary packages, run the following lines:
+
+```
+sudo chmod +x initialSetup.sh
+./initialSetup.sh
 ```
 
 In case of conflicts, run this for a config backup folder:
