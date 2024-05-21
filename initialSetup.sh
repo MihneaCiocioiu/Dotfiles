@@ -1,1 +1,1 @@
-sudo apt install < initialRequirements.txt
+cat ~/initialRequirements.txt | xargs sudo aptitude install
