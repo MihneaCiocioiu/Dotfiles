@@ -1,1 +1,1 @@
-cat $HOME/initialRequitements.txt | xargs sudo apt install
+sudo apt install < initialRequirements.txt
