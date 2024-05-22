@@ -3,3 +3,5 @@ neovim
 tmux
 kitty
 polybar
+pulseaudio
+alsa-utils
