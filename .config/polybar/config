@@ -16,14 +16,14 @@
 ;
 ;==========================================================
 
-[colors]
-background = #282A2E
-background-alt = #373B41
-foreground = #C5C8C6
-primary = #F0C674
-secondary = #8ABEB7
-alert = #A54242
-disabled = #707880
+;[colors]
+;background = #282A2E
+;background-alt = #373B41
+;foreground = #C5C8C6
+;primary = #F0C674
+;secondary = #8ABEB7
+;alert = #A54242
+;disabled = #707880
 
 [bar/bar]
 width = 100%
@@ -300,3 +300,5 @@ animation-low-1 =
 animation-low-framerate = 200
 
 ; vim:ft=dosini
+
+include-file = ~/rose-pine-polybar/schemes/rose-pine-moon.ini
