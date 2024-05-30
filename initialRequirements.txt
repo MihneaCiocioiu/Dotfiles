@@ -5,3 +5,4 @@ kitty
 polybar
 pulseaudio
 alsa-utils
+brightnessctl
