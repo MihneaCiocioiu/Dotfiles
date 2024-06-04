@@ -301,4 +301,4 @@ animation-low-framerate = 200
 
 ; vim:ft=dosini
 
-include-file = ~/rose-pine-polybar/schemes/rose-pine-moon.ini
+include-file = themes/rose-pine-moon.ini
